@@ -1,34 +1,37 @@
-function aFunction() {
-    const element = document.body;
-    element.classList.toggle("red");
- }
+// function aFunction() {
+//     const element = document.body;
+//     element.classList.toggle("red");
+//  }
 
- function bFunction() {
-    const element = document.body;
-    element.classList.toggle("orange");
- }
+//  function bFunction() {
+//     const element = document.body;
+//     element.classList.toggle("orange");
+//  }
 
- function cFunction() {
-    const element = document.body;
-    element.classList.toggle("yellow");
- }
+//  function cFunction() {
+//     const element = document.body;
+//     element.classList.toggle("yellow");
+//  }
 
- function dFunction() {
-    const element = document.body;
-    element.classList.toggle("green");
- }
+//  function dFunction() {
+//     const element = document.body;
+//     element.classList.toggle("green");
+//  }
 
- function eFunction() {
-    const element = document.body;
-    element.classList.toggle("blue");
- }
+//  function eFunction() {
+//     const element = document.body;
+//     element.classList.toggle("blue");
+//  }
 
- function fFunction() {
-    const element = document.body;
-    element.classList.toggle("indigo");
- }
+//  function fFunction() {
+//     const element = document.body;
+//     element.classList.toggle("indigo");
+//  }
  
- function gFunction() {
-    let element = document.body;
-    element.classList.toggle("violet");
- }
+//  function gFunction() {
+//     let element = document.body;
+//     element.classList.toggle("violet");}
+
+function changeBackground(color){
+   document.body.style.background = color;
+}
