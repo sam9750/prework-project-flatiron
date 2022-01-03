@@ -1,0 +1,42 @@
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.red {
+  background-color: #f00;
+  color: white;
+  }
+  
+.orange {
+  background-color: #ffa500;
+  color: white;
+}
+
+.yellow {
+  background-color: #ff0;
+  color: white;
+}
+
+.green {
+  background-color: #00bc3f;
+  color: white;
+}
+
+.blue {
+  background-color: #06f;
+  color: white;
+}
+
+
+.indigo {
+  background-color: #8a2be2;
+  color: white;
+}
+
+.violet{
+  background-color: #d300c9;
+  color: white;
+}
