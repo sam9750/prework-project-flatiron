@@ -3,10 +3,19 @@
 <head>
 <style>
 body {
-  padding: 25px;
+  padding: 50px;
   background-color: white;
   color: black;
   font-size: 25px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  padding-left: 350px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+padding-left: 50px;
+
 }
 
 .red {
@@ -45,6 +54,9 @@ body {
 
 }
 
+div {
+  padding-left: 20px;
+}
 
 </style>
 </head>
@@ -52,45 +64,43 @@ body {
 
 <h2>Welcome to Color Toggle!</h2>
 <p>Please toggle colors below.</p>
-
-<button onclick="aFunction()">Red</button>
-<button onclick="bFunction()">Orange</button>
-<button onclick="cFunction()">Yellow</button>
-<button onclick="dFunction()">Green</button>
-<button onclick="eFunction()">Blue</button>
-<button onclick="fFunction()">Purple</button>
-<button onclick="gFunction()">Violet</button>
+<div>
+<button onclick="changeBackground('red')">Red</button>
+<button onclick="changeBackground('orange')">Orange</button>
+<button onclick="changeBackground('yellow')">Yellow</button>
+<button onclick="changeBackground('green')">Green</button>
+<button onclick="changeBackground('blue')">Blue</button>
+<button onclick="changeBackground('indigo')">Indigo</button>
+<button onclick="changeBackground('violet')">Violet</button>
+</div>
 
 
 <script>
-function aFunction() {
-   const element = document.body;
-   element.classList.toggle("red");
+ function changeBackground(color){
+        document.body.style.background = color;
 }
-function bFunction() {
-   const element = document.body;
-   element.classList.toggle("orange");
-}
-function cFunction() {
-   const element = document.body;
-   element.classList.toggle("yellow");
-}
-function dFunction() {
-   const element = document.body;
-   element.classList.toggle("green");
-}
-function eFunction() {
-   const element = document.body;
-   element.classList.toggle("blue");
-}
-function fFunction() {
-   const element = document.body;
-   element.classList.toggle("indigo");
-}
-function gFunction() {
-   const element = document.body;
-   element.classList.toggle("violet");
-}
+
+//using the below functions works but not completely, finnicky
+// function cFunction() {
+//    const element = document.body;
+//    element.classList.toggle("yellow");
+// }
+// function dFunction() {
+//    const element = document.body;
+//    element.classList.toggle("green");
+// }
+// function eFunction() {
+//    const element = document.body;
+//    element.classList.toggle("blue");
+// }
+// function fFunction() {
+//    const element = document.body;
+//    element.classList.toggle("indigo");
+// }
+// function gFunction() {
+//    const element = document.body;
+//    element.classList.toggle("violet");
+// }
 
 </script>
 
